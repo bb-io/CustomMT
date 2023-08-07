@@ -8,7 +8,7 @@ namespace Apps.CustomMT.Models.Request.Translate.Base;
 public class TranslateRequest
 {
     [JsonProperty("template_name")]
-    [Display("Template name")]
+    [Display("Template")]
     [DataSource(typeof(TemplateDataHandler))]
     public string TemplateName { get; set; }
 }
