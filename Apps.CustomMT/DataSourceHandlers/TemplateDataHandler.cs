@@ -21,6 +21,7 @@ public class TemplateDataHandler : BaseInvocable, IAsyncDataSourceHandler
         return templates.Templates
             .Where(x => context.SearchString is null ||
                         x.TemplateName.Contains(context.SearchString, StringComparison.OrdinalIgnoreCase))
+            .Take(20)
             .ToDictionary(x => x.TemplateName, x => x.TemplateName);
     }
 }
