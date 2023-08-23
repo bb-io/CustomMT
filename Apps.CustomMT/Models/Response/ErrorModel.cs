@@ -1,4 +1,4 @@
-﻿namespace Apps.CustomMT.Models.Response.Error;
+﻿namespace Apps.CustomMT.Models.Response;
 
 public class ErrorModel
 {

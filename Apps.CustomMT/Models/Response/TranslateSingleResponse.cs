@@ -1,9 +1,9 @@
 ﻿using Blackbird.Applications.Sdk.Common;
 
-namespace Apps.CustomMT.Models.Response.Translate;
+namespace Apps.CustomMT.Models.Response;
 
 public class TranslateSingleResponse
 {
-    [Display("Translated text")]
+    [Display("Translation")]
     public string TranslatedText { get; set; }
 }

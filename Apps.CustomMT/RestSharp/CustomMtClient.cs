@@ -1,6 +1,5 @@
 ﻿using Apps.CustomMT.Constants;
 using Apps.CustomMT.Models.Response;
-using Apps.CustomMT.Models.Response.Error;
 using Newtonsoft.Json;
 using RestSharp;
 
