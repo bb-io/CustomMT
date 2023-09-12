@@ -4,6 +4,8 @@ Blackbird is the new automation backbone for the language technology industry. B
 
 ## Introduction
 
+<!-- begin docs -->
+
 [Custom.MT](https://custom.mt/) offers fine-tuned language models for translation. It allows you to create machine translation templates and use them for automated translation. In Blackbird, you can use Custom.MT's templates in your localization pipelines for translating strings.
 
 ## Before setting up
@@ -37,3 +39,5 @@ This example shows a very simple workflow where any incoming mention on particul
 ## Feedback
 
 Feedback to our implementation of Custom.MT is always very welcome. Reach out to us using the established channels or create an issue.
+
+<!-- end docs -->
