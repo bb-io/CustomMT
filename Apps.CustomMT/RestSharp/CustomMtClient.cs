@@ -13,10 +13,16 @@ public class CustomMtClient : RestClient
 
     public async Task<T> ExecuteWithHandling<T>(RestRequest request)
     {
-        var response = await this.ExecuteAsync(request);
+        var response = await ExecuteWithHandling(request);
+        return JsonConvert.DeserializeObject<T>(response.Content);
+    }
+
+    public async Task<RestResponse> ExecuteWithHandling(RestRequest request)
+    {
+        var response = await ExecuteAsync(request);
 
         if (response.IsSuccessStatusCode)
-            return JsonConvert.DeserializeObject<T>(response.Content);
+            return response;
 
         throw ConfigureErrorException(response);
     }
