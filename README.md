@@ -39,5 +39,5 @@ This example shows a very simple workflow where any incoming mention on particul
 ## Feedback
 
 Feedback to our implementation of Custom.MT is always very welcome. Reach out to us using the established channels or create an issue.
-
+ 
 <!-- end docs -->
