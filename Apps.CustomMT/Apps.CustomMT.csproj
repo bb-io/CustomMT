@@ -4,7 +4,7 @@
         <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <Product>Blackbird CustomMT</Product>
+        <Product>CustomMT</Product>
         <Description>Service that provides localization with Tailored Machine Translation</Description>
         <Version>1.0.1</Version>
         <AssemblyName>Apps.CustomMT</AssemblyName>
