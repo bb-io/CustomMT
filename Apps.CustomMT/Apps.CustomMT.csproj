@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <Product>CustomMT</Product>
     <Description>Service that provides localization with Tailored Machine Translation</Description>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <AssemblyName>Apps.CustomMT</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
