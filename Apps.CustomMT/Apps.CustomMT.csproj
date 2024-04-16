@@ -1,12 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <Product>CustomMT</Product>
         <Description>Service that provides localization with Tailored Machine Translation</Description>
-        <Version>1.0.3</Version>
+        <Version>1.0.5</Version>
         <AssemblyName>Apps.CustomMT</AssemblyName>
     </PropertyGroup>
 
